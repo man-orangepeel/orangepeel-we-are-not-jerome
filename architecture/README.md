@@ -25,7 +25,7 @@ Two parents can share the same seed on two phones. A backend payment lock ensure
 
 ## Full architecture diagram
 
-![Architecture overview](../assets/architecture.svg)
+![Architecture overview](../assets/1-architecture.svg)
 
 ---
 

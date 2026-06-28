@@ -16,7 +16,7 @@ This is atomic: either everyone gets paid, or nobody does.
 
 ## Diagram
 
-![Collective reward flow](../assets/collective-flow.svg)
+![Collective reward flow](../assets/4-collective-flow.svg)
 
 ---
 

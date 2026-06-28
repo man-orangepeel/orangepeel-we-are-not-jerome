@@ -6,7 +6,7 @@ These are starting assumptions, not mandates — open to better ideas from the t
 
 ## Diagram
 
-![Tech stack](assets/stack.png)
+![Tech stack](assets/5-stack.png)
 
 ---
 

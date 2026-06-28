@@ -19,7 +19,7 @@ The complete end-to-end flow from a child completing a challenge to sats arrivin
 
 ## Diagram
 
-![Reward flow](../assets/reward-flow.png)
+![Reward flow](../assets/3-reward-flow.png)
 
 ---
 

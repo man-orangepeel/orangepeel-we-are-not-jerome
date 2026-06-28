@@ -17,7 +17,7 @@ The fee is never held by the backend. It is extracted by the protocol. This is w
 
 ## Diagram
 
-![BIP-85 funding flow](../assets/bip85-flow.png)
+![BIP-85 funding flow](../assets/2-bip85-flow.png)
 
 ---
 
