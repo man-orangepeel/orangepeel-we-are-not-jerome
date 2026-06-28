@@ -1,0 +1,181 @@
+<svg viewBox="0 0 920 530" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, sans-serif">
+  <rect width="920" height="530" fill="#f8fafc"/>
+  <text x="460" y="22" text-anchor="middle" font-size="13" font-weight="700" fill="#111827">UNPRINTED — Architecture fonctionnelle</text>
+
+  <!-- ══════════ PARENTS ══════════ -->
+  <rect x="14" y="34" width="115" height="78" rx="8" fill="#1e293b"/>
+  <text x="71" y="57" text-anchor="middle" font-size="18">📱</text>
+  <text x="71" y="73" text-anchor="middle" font-size="10" font-weight="600" fill="white">Parent A</text>
+  <text x="71" y="86" text-anchor="middle" font-size="8.5" fill="#93c5fd">master seed BIP-39</text>
+  <text x="71" y="100" text-anchor="middle" font-size="8.5" fill="#7dd3fc">signe · valide</text>
+
+  <rect x="140" y="34" width="115" height="78" rx="8" fill="#1e293b"/>
+  <text x="197" y="57" text-anchor="middle" font-size="18">📱</text>
+  <text x="197" y="73" text-anchor="middle" font-size="10" font-weight="600" fill="white">Parent B</text>
+  <text x="197" y="86" text-anchor="middle" font-size="8.5" fill="#93c5fd">même seed</text>
+  <text x="197" y="100" text-anchor="middle" font-size="8.5" fill="#7dd3fc">lecture + validation</text>
+
+  <rect x="55" y="116" width="200" height="16" rx="8" fill="#1e3a5f" stroke="#3b82f6" stroke-width="1"/>
+  <text x="155" y="128" text-anchor="middle" font-size="8" fill="#93c5fd">même seed · 2 téléphones · 1 seul backup</text>
+
+  <!-- Parents arrows to Pot Parent -->
+  <line x1="130" y1="73" x2="283" y2="68" stroke="#3b82f6" stroke-width="1.5" marker-end="url(#ab)"/>
+  <line x1="255" y1="73" x2="291" y2="68" stroke="#3b82f6" stroke-width="1.5" marker-end="url(#ab)"/>
+
+  <!-- ══════════ SOURCES FINANCEMENT ══════════ -->
+  <text x="14" y="155" font-size="9" font-weight="600" fill="#6b7280">Sources de dépôt</text>
+  <rect x="14" y="162" width="100" height="26" rx="6" fill="#1e293b"/>
+  <text x="64" y="179" text-anchor="middle" font-size="9" fill="white">💳 CB (Transak)</text>
+  <rect x="14" y="194" width="100" height="26" rx="6" fill="#1e293b"/>
+  <text x="64" y="211" text-anchor="middle" font-size="9" fill="white">⚡ BTC Lightning</text>
+  <rect x="14" y="226" width="100" height="26" rx="6" fill="#1e293b"/>
+  <text x="64" y="243" text-anchor="middle" font-size="9" fill="white">₿ BTC on-chain</text>
+  <rect x="14" y="258" width="100" height="26" rx="6" fill="#1e293b" stroke="#fbbf24" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="64" y="275" text-anchor="middle" font-size="9" fill="#fbbf24">🎁 Contributeur</text>
+
+  <line x1="114" y1="175" x2="195" y2="195" stroke="#4b5563" stroke-width="1.2" marker-end="url(#ag)"/>
+  <line x1="114" y1="207" x2="195" y2="207" stroke="#4b5563" stroke-width="1.2" marker-end="url(#ag)"/>
+  <line x1="114" y1="239" x2="195" y2="215" stroke="#4b5563" stroke-width="1.2" marker-end="url(#ag)"/>
+  <line x1="114" y1="271" x2="195" y2="220" stroke="#fbbf24" stroke-width="1" stroke-dasharray="3,2" marker-end="url(#agold)"/>
+
+  <!-- ══════════ LNURL SPLIT ══════════ -->
+  <rect x="195" y="182" width="100" height="60" rx="8" fill="#292524" stroke="#6b7280" stroke-width="1"/>
+  <text x="245" y="203" text-anchor="middle" font-size="9.5" font-weight="600" fill="white">LNURL split</text>
+  <text x="245" y="217" text-anchor="middle" font-size="8" fill="#a8a29e">fee prélevée</text>
+  <text x="245" y="229" text-anchor="middle" font-size="8" fill="#a8a29e">avant réception</text>
+  <text x="245" y="242" text-anchor="middle" font-size="8.5" fill="#fbbf24">~1-2%</text>
+
+  <line x1="245" y1="182" x2="245" y2="156" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="3,2" marker-end="url(#agold)"/>
+
+  <!-- ══════════ POOL APP ══════════ -->
+  <rect x="168" y="128" width="154" height="28" rx="7" fill="#fef3c7" stroke="#fbbf24" stroke-width="1.5"/>
+  <text x="245" y="143" text-anchor="middle" font-size="9" font-weight="700" fill="#92400e">🏦 Pool App</text>
+  <text x="245" y="153" text-anchor="middle" font-size="7.5" fill="#92400e">fees collectées → finance 🌐 ⭐ + coûts</text>
+
+  <line x1="295" y1="212" x2="305" y2="212" stroke="#3b82f6" stroke-width="1.5" marker-end="url(#ab)"/>
+
+  <!-- ══════════ POT PARENT ══════════ -->
+  <rect x="305" y="166" width="145" height="110" rx="10" fill="#1e3a5f" stroke="#3b82f6" stroke-width="2"/>
+  <text x="377" y="192" text-anchor="middle" font-size="20">💰</text>
+  <text x="377" y="210" text-anchor="middle" font-size="11" font-weight="700" fill="white">Pot Parent</text>
+  <text x="377" y="224" text-anchor="middle" font-size="8.5" fill="#93c5fd">wallet self-custody</text>
+  <text x="377" y="237" text-anchor="middle" font-size="8.5" fill="#7dd3fc">Lightning · Liquid · on-chain</text>
+  <text x="377" y="250" text-anchor="middle" font-size="8" fill="#64748b">Breez SDK · clés sur device</text>
+  <text x="377" y="264" text-anchor="middle" font-size="9" fill="#fbbf24">X sats</text>
+
+  <line x1="450" y1="221" x2="480" y2="221" stroke="#7c3aed" stroke-width="2" marker-end="url(#ap)"/>
+
+  <!-- ══════════ BIP-85 ══════════ -->
+  <rect x="480" y="185" width="90" height="75" rx="8" fill="#3b0764"/>
+  <text x="525" y="210" text-anchor="middle" font-size="10" font-weight="700" fill="white">BIP-85</text>
+  <text x="525" y="224" text-anchor="middle" font-size="8" fill="#d8b4fe">dérivation</text>
+  <text x="525" y="238" text-anchor="middle" font-size="8" fill="#a78bfa">index 0 → enfant 1</text>
+  <text x="525" y="250" text-anchor="middle" font-size="8" fill="#a78bfa">index 1 → enfant 2</text>
+
+  <line x1="570" y1="205" x2="595" y2="168" stroke="#7c3aed" stroke-width="1.5" marker-end="url(#ap)"/>
+  <line x1="570" y1="221" x2="595" y2="234" stroke="#7c3aed" stroke-width="1.5" marker-end="url(#ap)"/>
+  <line x1="570" y1="240" x2="595" y2="300" stroke="#7c3aed" stroke-width="1.5" stroke-dasharray="3,2" marker-end="url(#ap)"/>
+
+  <!-- ══════════ CHILDREN WALLETS ══════════ -->
+  <rect x="595" y="130" width="145" height="75" rx="8" fill="#14532d" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="667" y="153" text-anchor="middle" font-size="10" font-weight="700" fill="white">👧 Enfant 1 · index 0</text>
+  <text x="667" y="167" text-anchor="middle" font-size="8.5" fill="#86efac">wallet self-custody · Liquid</text>
+  <rect x="608" y="174" width="123" height="18" rx="5" fill="#052e16" stroke="#4ade80" stroke-width="1"/>
+  <text x="669" y="186" text-anchor="middle" font-size="8" fill="#4ade80">⚡ NWC endpoint actif</text>
+  <text x="667" y="200" text-anchor="middle" font-size="7.5" fill="#64748b">plafond parent configurable</text>
+
+  <rect x="595" y="214" width="145" height="75" rx="8" fill="#14532d" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="667" y="237" text-anchor="middle" font-size="10" font-weight="700" fill="white">👦 Enfant 2 · index 1</text>
+  <text x="667" y="251" text-anchor="middle" font-size="8.5" fill="#86efac">wallet self-custody · Liquid</text>
+  <rect x="608" y="258" width="123" height="18" rx="5" fill="#052e16" stroke="#4ade80" stroke-width="1"/>
+  <text x="669" y="270" text-anchor="middle" font-size="8" fill="#4ade80">⚡ NWC endpoint actif</text>
+  <text x="667" y="284" text-anchor="middle" font-size="7.5" fill="#64748b">plafond parent configurable</text>
+
+  <rect x="595" y="298" width="145" height="55" rx="8" fill="#166534" stroke="#22c55e" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="667" y="320" text-anchor="middle" font-size="10" fill="#4ade80">+ Enfant N · index N</text>
+  <rect x="608" y="328" width="123" height="16" rx="5" fill="#052e16" stroke="#4ade80" stroke-width="1"/>
+  <text x="669" y="339" text-anchor="middle" font-size="8" fill="#4ade80">⚡ NWC endpoint actif</text>
+
+  <!-- ══════════ MISSIONS TYPES ══════════ -->
+  <rect x="755" y="130" width="155" height="230" rx="10" fill="#1c1917" stroke="#44403c" stroke-width="1.5"/>
+  <text x="832" y="152" text-anchor="middle" font-size="10" font-weight="700" fill="white">Types de missions</text>
+
+  <rect x="764" y="160" width="137" height="48" rx="6" fill="#1e3a5f"/>
+  <text x="832" y="176" text-anchor="middle" font-size="9" font-weight="600" fill="#93c5fd">Financement : Pot Parent</text>
+  <text x="772" y="191" font-size="10">📋</text>
+  <text x="786" y="191" font-size="8.5" fill="white">Catalogue famille</text>
+  <text x="772" y="204" font-size="10">✏️</text>
+  <text x="786" y="204" font-size="8.5" fill="white">Custom parent</text>
+
+  <line x1="755" y1="215" x2="910" y2="215" stroke="#44403c" stroke-width="0.5"/>
+
+  <rect x="764" y="221" width="137" height="55" rx="6" fill="#1c1f0e"/>
+  <text x="832" y="237" text-anchor="middle" font-size="9" font-weight="600" fill="#fbbf24">Financement : Pool App</text>
+  <text x="772" y="252" font-size="10">🌐</text>
+  <text x="786" y="252" font-size="8.5" fill="white">Mission ouverte</text>
+  <text x="836" y="252" font-size="7.5" fill="#6b7280">progression perso</text>
+  <text x="772" y="266" font-size="10">⭐</text>
+  <text x="786" y="266" font-size="8.5" fill="white">Mission exclusive</text>
+  <text x="836" y="266" font-size="7.5" fill="#6b7280">top 3 hebdo</text>
+
+  <line x1="755" y1="285" x2="910" y2="285" stroke="#44403c" stroke-width="0.5"/>
+
+  <rect x="764" y="292" width="137" height="52" rx="6" fill="#1a1f2e" stroke="#6366f1" stroke-width="1"/>
+  <text x="832" y="308" text-anchor="middle" font-size="9" font-weight="600" fill="#a5b4fc">Mission collective 👥</text>
+  <text x="832" y="321" text-anchor="middle" font-size="8" fill="#818cf8">1 tx Liquid multi-outputs</text>
+  <text x="832" y="333" text-anchor="middle" font-size="8" fill="#818cf8">même famille · atomique</text>
+
+  <text x="764" y="360" font-size="7.5" fill="#6b7280">📋✏️ = sats seuls · aucun point classement</text>
+  <text x="764" y="372" font-size="7.5" fill="#6b7280">🌐⭐ = sats + points classement</text>
+
+  <rect x="755" y="382" width="155" height="42" rx="7" fill="#052e16" stroke="#4ade80" stroke-width="1"/>
+  <text x="832" y="398" text-anchor="middle" font-size="9" font-weight="600" fill="#4ade80">⚡ NWC Wallet Connect</text>
+  <text x="832" y="410" text-anchor="middle" font-size="8" fill="#86efac">1 endpoint par enfant</text>
+  <text x="832" y="421" text-anchor="middle" font-size="7.5" fill="#4ade80">partenaires externes → envoient sats directs</text>
+
+  <!-- Magic Routing Hints -->
+  <path d="M 377 276 Q 377 320 595 172" stroke="#22c55e" stroke-width="1.5" fill="none" stroke-dasharray="4,2" marker-end="url(#agreen)"/>
+  <rect x="388" y="305" width="160" height="28" rx="6" fill="#052e16" stroke="#22c55e" stroke-width="1"/>
+  <text x="468" y="319" text-anchor="middle" font-size="8" fill="#4ade80">Magic Routing Hints</text>
+  <text x="468" y="330" text-anchor="middle" font-size="7.5" fill="#86efac">tx Liquid directe · ~26 sats · instantané</text>
+
+  <!-- ══════════ INFRASTRUCTURE ══════════ -->
+  <rect x="14" y="370" width="730" height="70" rx="10" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
+  <text x="379" y="390" text-anchor="middle" font-size="10" font-weight="600" fill="#94a3b8">Infrastructure</text>
+
+  <rect x="22" y="396" width="120" height="36" rx="6" fill="#1e293b"/>
+  <text x="82" y="411" text-anchor="middle" font-size="8.5" font-weight="600" fill="white">Breez SDK</text>
+  <text x="82" y="423" text-anchor="middle" font-size="7.5" fill="#64748b">self-custody · open source</text>
+
+  <rect x="150" y="396" width="100" height="36" rx="6" fill="#1e293b"/>
+  <text x="200" y="411" text-anchor="middle" font-size="8.5" font-weight="600" fill="white">Boltz</text>
+  <text x="200" y="423" text-anchor="middle" font-size="7.5" fill="#64748b">atomic swaps L1↔LN↔Liquid</text>
+
+  <rect x="258" y="396" width="100" height="36" rx="6" fill="#1e293b"/>
+  <text x="308" y="411" text-anchor="middle" font-size="8.5" font-weight="600" fill="white">Transak</text>
+  <text x="308" y="423" text-anchor="middle" font-size="7.5" fill="#64748b">fiat onramp · EU</text>
+
+  <rect x="366" y="396" width="100" height="36" rx="6" fill="#1e293b"/>
+  <text x="416" y="411" text-anchor="middle" font-size="8.5" font-weight="600" fill="white">Backend léger</text>
+  <text x="416" y="423" text-anchor="middle" font-size="7.5" fill="#64748b">LNURL · push · verrou</text>
+
+  <rect x="474" y="396" width="85" height="36" rx="6" fill="#1e293b"/>
+  <text x="516" y="411" text-anchor="middle" font-size="8.5" font-weight="600" fill="white">BIP-39/85</text>
+  <text x="516" y="423" text-anchor="middle" font-size="7.5" fill="#64748b">seed · dérivation</text>
+
+  <rect x="567" y="396" width="170" height="36" rx="6" fill="#1e293b" stroke="#f97316" stroke-width="1"/>
+  <text x="652" y="411" text-anchor="middle" font-size="8.5" font-weight="600" fill="#fb923c">Bitcoin Networks</text>
+  <text x="652" y="423" text-anchor="middle" font-size="7.5" fill="#64748b">⚡ Lightning · 🌊 Liquid · ₿ L1</text>
+
+  <!-- Legal badge -->
+  <rect x="14" y="446" width="730" height="22" rx="6" fill="#f0fdf4" stroke="#16a34a" stroke-width="1"/>
+  <text x="379" y="461" text-anchor="middle" font-size="8.5" fill="#15803d">✅ Non-custodial · Hors périmètre MiCA CASP (Art. 3(1)(15)) · Pas de licence requise · KYC délégué à Transak</text>
+
+  <defs>
+    <marker id="ab" markerWidth="7" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3 z" fill="#3b82f6"/></marker>
+    <marker id="ag" markerWidth="7" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3 z" fill="#4b5563"/></marker>
+    <marker id="agold" markerWidth="7" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3 z" fill="#fbbf24"/></marker>
+    <marker id="ap" markerWidth="7" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3 z" fill="#7c3aed"/></marker>
+    <marker id="agreen" markerWidth="7" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3 z" fill="#22c55e"/></marker>
+  </defs>
+</svg>
