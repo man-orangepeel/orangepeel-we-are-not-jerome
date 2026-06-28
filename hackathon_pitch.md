@@ -78,8 +78,7 @@ This is where we need the team:
 | Bitcoin/protocol dev | Breez SDK, BIP-85/39, LNURL, Liquid — the deeper the better |
 | Backend dev | Node or Python, LNURL server, webhook/push infra |
 | UX/Design | Mobile-first, ideally experience with child-facing products |
-
-Team size: 4–5. Some overlap expected and welcome.
+| Biz / Growth | Business model, Go To Market, branding, marketing
 
 ---
 
