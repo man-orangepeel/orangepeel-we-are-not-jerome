@@ -1,6 +1,6 @@
 # Collective Rewards
 
-Some missions can be completed as a team — all children in the family work together toward a shared goal.
+Some missions can be completed as a team — all children in the family work together toward a shared goal. The educational lesson: coordination, collective responsibility, and the value of the group.
 
 ---
 

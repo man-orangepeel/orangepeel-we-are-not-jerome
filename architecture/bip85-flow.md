@@ -6,7 +6,7 @@ How a parent deposit flows from fiat (or Lightning) into the family pot — with
 
 ## The flow
 
-1. Parent deposits via **Transak** (card → sats) or direct Lightning/on-chain transfer
+1. Parent deposits via **Transak** (card → sats), direct Lightning/on-chain, or a third party (grandparents, relatives) sending directly to the parent's Lightning address
 2. Funds route through the **LNURL-pay server** — our fee (1–2%) is split *before* sats arrive
 3. Sats land in the **parent wallet** (Breez SDK, self-custody)
 4. From the parent pot, rewards are paid out to child wallets via Lightning or Liquid

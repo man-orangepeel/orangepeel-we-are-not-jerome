@@ -23,6 +23,16 @@ The complete end-to-end flow from a child completing a challenge to sats arrivin
 
 ---
 
+## Child interface
+
+The child's app is adapted by age group (3–6 / 7–11 / 12–15 / 16–18):
+- Balance in sats (primary) + EUR spot equivalent
+- Active missions + reward shown upfront
+- "I did it" button — triggers the payment request
+- History: every sat has a story
+
+---
+
 ## Auto-sign
 
 If the reward amount is at or below the parent-defined threshold, step 4 is skipped entirely. The parent wallet signs automatically. No notification sent, no tap required.
