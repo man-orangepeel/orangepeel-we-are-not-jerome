@@ -1,4 +1,4 @@
-# I'm not Jerome
+# We are not Jerome
 
 > *"Proof of work starts at home."*
 
@@ -11,7 +11,7 @@
 ## The campaign
 
 > *"The Bitcoin parent who gives €30/month to their kid for nothing is Jerome Powell at home.*
-> *I'm not Jerome. My kids aren't either."*
+> *We are not Jerome. Our kids aren't either."*
 
 *"No work, no sat."*  
 *"Your kids can't be printed."*  

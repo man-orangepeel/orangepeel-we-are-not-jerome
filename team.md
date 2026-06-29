@@ -22,7 +22,7 @@ Team size: 4–5. Some overlap expected and welcome.
 - Business model that doesn't require VC to bootstrap (fees on existing parent spend)
 - Breez SDK does the heavy lifting on the wallet layer
 - The hardest problems are protocol design, not raw engineering volume
-- The campaign (*I'm not Jerome*) is a genuine cultural hook in the Bitcoin space
+- The campaign (*We are not Jerome*) is a genuine cultural hook in the Bitcoin space
 
 ---
 
