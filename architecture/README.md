@@ -29,10 +29,30 @@ Two parents can share the same seed on two phones. A backend payment lock ensure
 
 ---
 
-## Diagrams in this section
+## BIP-85 Funding Flow
 
-| Diagram | What it shows |
-|---|---|
-| [BIP-85 Funding Flow](bip85-flow.md) | How parent deposits flow through LNURL split into the family pot |
-| [Reward Flow](reward-flow.md) | End-to-end child reward: invoice → validation → payout |
-| [Collective Rewards](collective-flow.md) | Multi-child collaborative missions (same-family Liquid tx) |
+How parent deposits flow through LNURL split into the family pot — fee extracted at protocol level before any sat touches the wallet.
+
+![BIP-85 funding flow](../assets/2-bip85-flow.png)
+
+→ [Full details](bip85-flow.md)
+
+---
+
+## Reward Flow
+
+End-to-end child reward: invoice → validation → payout.
+
+![Reward flow](../assets/3-reward-flow.png)
+
+→ [Full details](reward-flow.md)
+
+---
+
+## Collective Rewards
+
+Multi-child collaborative missions — one parent transaction, multiple child wallets paid atomically via Liquid multi-outputs.
+
+![Collective reward flow](../assets/4-collective-flow.svg)
+
+→ [Full details](collective-flow.md)
