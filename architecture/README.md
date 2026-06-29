@@ -29,16 +29,6 @@ Two parents can share the same seed on two phones. A backend payment lock ensure
 
 ---
 
-## BIP-85 Funding Flow
-
-How parent deposits flow through LNURL split into the family pot — fee extracted at protocol level before any sat touches the wallet.
-
-![BIP-85 funding flow](../assets/2-bip85-flow.png)
-
-→ [Full details](bip85-flow.md)
-
----
-
 ## Reward Flow
 
 End-to-end child reward: invoice → validation → payout.
