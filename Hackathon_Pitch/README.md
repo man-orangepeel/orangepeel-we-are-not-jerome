@@ -1,5 +1,7 @@
 # Introduction
 
+> 📖 Read this on GitBook: [orange-peel.gitbook.io/unprinted](https://orange-peel.gitbook.io/unprinted)
+
 > _"Proof of work starts at home."_
 
 71% of American parents give their kids unconditional allowance every month. No effort. No value created. Jerome Powell at home.
