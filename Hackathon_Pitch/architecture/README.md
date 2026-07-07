@@ -2,7 +2,7 @@
 
 Orange Peel is built around one principle: **the app never holds funds**. Every sat lives in a self-custody wallet controlled by a family member.
 
----
+***
 
 ## Wallet structure
 
@@ -21,28 +21,28 @@ One BIP-39 seed → unlimited child wallets via BIP-85 derivation. One backup fo
 
 Two parents can share the same seed on two phones. A backend payment lock ensures a Lightning invoice is only signed once — no double payment possible.
 
----
+***
 
 ## Full architecture diagram
 
-![Architecture overview](../assets/1-architecture.svg)
+![Architecture overview](../.gitbook/assets/1-architecture.svg)
 
----
+***
 
 ## Reward Flow
 
 End-to-end child reward: invoice → validation → payout.
 
-![Reward flow](../assets/3-reward-flow.png)
+![Reward flow](../.gitbook/assets/3-reward-flow.png)
 
 → [Full details](reward-flow.md)
 
----
+***
 
 ## Collective Rewards
 
 Multi-child collaborative missions — one parent transaction, multiple child wallets paid atomically via Liquid multi-outputs.
 
-![Collective reward flow](../assets/4-collective-flow.svg)
+![Collective reward flow](../.gitbook/assets/4-collective-flow.svg)
 
 → [Full details](collective-flow.md)
